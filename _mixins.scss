@@ -1,0 +1,17 @@
+@mixin titreh3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 50px;
+    color: $prim;
+    text-transform: uppercase;
+}
+
+@mixin container{
+    width: 80%;
+    margin: auto;
+}
+
+@mixin imagesize{
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size: cover; 
+}
